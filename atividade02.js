@@ -4,22 +4,23 @@ let num1 = 50
 let num2 = 45
 
 let soma = (num1 + num2);
-console.log("Soma:" +soma);
+console.log("num1+num2:" +soma);
 
 let sub = (num1 - num2);
-console.log("Subtração:" +sub);
+console.log("num1-num2:" +sub);
 
 let mult = (num1 * num2);
-console.log("Multiplicação:" +mult);
+console.log("num1*num2:" +mult);
 
 let div = (num1 / num2);
-console.log("Divisão:" +div)
+console.log("num1/num2:" +div)
 
 //02
 
-let idade1 = 20
-let idade2 = 21
-let resultado = idade1 == idade2 
+let idade1 = 20;
+let idade2 = 19;
+
+let resultado = idade1 < idade2 ?"O segundo e mais velho": "O primeiro e mais velho"
 console.log(resultado);
 
 
